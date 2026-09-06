@@ -15,6 +15,44 @@
     .work{padding-top:54px}.work-heading{display:flex;justify-content:space-between;align-items:baseline;gap:24px;margin:30px 0 36px}.work-heading h2{font:400 clamp(34px,4vw,48px)/1.4 "Songti SC","STSong",serif;letter-spacing:.06em;margin:0}.work-heading p{margin:0;color:var(--muted)}.project-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}.project-card{position:relative;min-width:0;padding:34px;min-height:330px;display:flex;flex-direction:column;border:1px solid var(--line);border-radius:4px;background:#fbfcf8;box-shadow:none;transition:transform .3s,box-shadow .3s}.project-card:hover{transform:translateY(-2px);box-shadow:0 8px 20px #35492c0d}.project-card.featured{grid-column:1/-1;display:grid;grid-template-columns:1fr 1fr;gap:0 45px;background:#e7eddd;border-top:3px solid #68834d}.card-top{display:flex;justify-content:space-between;align-items:center;grid-column:1/-1}.project-index{font:italic 14px Georgia,serif;color:#61724e}.spark{font-size:14px;color:#5a793f}.project-card h3{margin:34px 0 18px;font:400 clamp(27px,3vw,34px)/1.4 "Songti SC","STSong",serif;letter-spacing:.04em}.project-card>p{color:var(--muted);margin:0 0 30px;font-size:16px}.featured h3{grid-column:1;grid-row:2}.featured>p{grid-column:1;grid-row:3}.memory-layers{grid-column:2;grid-row:2/4;align-self:center;display:grid;gap:10px;margin:24px 0}.memory-layer{display:grid;grid-template-columns:90px 1fr;gap:12px;padding:13px 16px;border-radius:3px;border:1px solid #c7d2bb;background:#f5f7ef;font-size:14px}.memory-layer strong{font-weight:500;color:#3b5432}.memory-layer span{color:var(--muted)}.card-bottom{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:14px;grid-column:1/-1;border-top:1px solid var(--line);padding-top:22px;margin-top:auto;font-size:14px}.card-bottom>span{color:var(--muted)}.card-bottom a{color:var(--blue);font-weight:600;padding:5px 0}.timetable{background:#f0f3e9}
     .contact{max-width:1120px;margin:65px auto 0;border-top:1px solid var(--line);padding-bottom:30px;background:transparent}.contact-content{display:grid;grid-template-columns:1fr 1fr;align-items:center;margin-top:48px;gap:20px}.contact-kicker{color:var(--muted);margin:0;font-size:18px}.contact h2{font:400 clamp(42px,6vw,70px)/1.4 "Songti SC","STSong",serif;letter-spacing:.07em;margin:0}.contact-link{grid-column:2;display:flex;align-items:center;gap:10px;width:fit-content;max-width:100%;overflow-wrap:anywhere;font-size:16px;margin-top:15px;color:var(--blue)}.gh-mark{flex-shrink:0;display:grid;place-items:center;width:30px;height:30px;border:1px solid #839571;border-radius:50%;font-size:12px}footer{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px;border-top:1px solid var(--line);margin-top:80px;padding-top:24px;color:var(--muted);font-size:12px;letter-spacing:.09em}
     @media(max-width:720px){.site-nav{padding:25px 22px}.nav-links{gap:18px;font-size:14px}.hero{min-height:590px;padding:80px 22px 80px}.hero-kicker{font-size:12px;letter-spacing:.06em;flex-wrap:wrap}.hero h1{font-size:115px}.hero-line{font-size:25px;letter-spacing:.02em}.hero-mark{display:none}.hero::before{right:22px;width:16%;opacity:.35}.section{padding:58px 22px}.about{grid-template-columns:1fr;gap:28px}.principles{grid-column:1;margin:0}.work-heading{display:block}.work-heading p{margin-top:12px}.project-grid{grid-template-columns:1fr}.project-card{padding:25px;min-height:310px;border-radius:4px}.project-card.featured{display:flex;gap:0}.project-card h3{margin-top:26px}.memory-layers{margin:0 0 26px;width:100%}.memory-layer{grid-template-columns:80px 1fr;padding:12px;gap:6px}.contact{margin-top:20px}.contact-content{grid-template-columns:1fr;gap:25px;margin-top:32px}.contact h2{font-size:52px}.contact-link{grid-column:1;font-size:14px}footer{margin-top:55px;line-height:1.7}}
+    .project-card.featured{grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:start;gap:0 38px}
+    .project-card.featured:hover{transform:none;box-shadow:none}
+    .project-status{font-size:13px;color:#405638;background:#f5f7ef;border:1px solid #bdcdae;border-radius:3px;padding:4px 10px}
+    .featured .card-top{flex-wrap:wrap;gap:12px}
+    .featured .workbench-intro{line-height:1.85;max-width:34em}
+    .workbench-intro>strong{display:block;color:var(--ink);font-size:20px;font-weight:500;line-height:1.65;margin-bottom:14px}
+    .featured .memory-layers{margin:26px 0;min-width:0}
+    .featured .memory-layer{grid-template-columns:76px minmax(0,1fr);gap:12px;align-items:start}
+    .architecture-details{grid-column:1/-1;border-top:1px solid #bdcdae;width:100%;min-width:0;margin-top:6px}
+    .architecture-details>summary{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:20px 0 0;min-height:48px;list-style:none;font-size:16px;font-weight:600;color:#365a2e;cursor:pointer}
+    .architecture-details>summary::-webkit-details-marker{display:none}
+    .architecture-details>summary:hover{color:#243f1e}
+    .architecture-details>summary:focus-visible{outline:2px solid #426b39;outline-offset:5px;border-radius:2px}
+    .detail-indicator{font-size:22px;line-height:1;transition:transform .2s}
+    .detail-open{display:none}
+    .architecture-details[open] .detail-closed{display:none}
+    .architecture-details[open] .detail-open{display:inline}
+    .architecture-details[open] .detail-indicator{transform:rotate(45deg)}
+    .architecture-body{padding-top:30px}
+    .architecture-body h4{font-size:18px;line-height:1.6;margin:0 0 9px;font-weight:600;letter-spacing:0}
+    .architecture-body p{font-size:16px;line-height:1.85;color:var(--muted);margin:0}
+    .design-principles{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:26px;margin-bottom:36px}
+    .design-principles>div{border-left:2px solid #879f6c;padding-left:16px}
+    .revision-example{border-top:1px solid #bdcdae;padding-top:28px}
+    .example-heading{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+    .example-heading h4{margin:0}
+    .example-heading>span{font-size:14px;color:#536449}
+    .example-premise{max-width:54em}
+    .revision-steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1px;padding:0;margin:22px 0;background:#c7d2bb;border:1px solid #c7d2bb;list-style:none}
+    .revision-steps li{padding:20px;background:#f5f7ef;min-width:0}
+    .step-number{display:block;font:14px/1.5 Georgia,serif;color:#587543;margin-bottom:10px}
+    .revision-steps strong{display:block;font-size:16px;margin-bottom:7px;font-weight:600}
+    .architecture-body .learning-branch{border-left:3px solid #68834d;padding:14px 18px;background:#dce5cf}
+    .learning-branch strong{color:var(--ink)}
+    .project-boundary{display:grid;grid-template-columns:100px minmax(0,1fr);gap:20px;border-top:1px solid #bdcdae;padding-top:24px;margin-top:30px}
+    .project-boundary h4{font-size:16px}
+    @media(max-width:850px){.design-principles{grid-template-columns:1fr;gap:20px}.revision-steps{grid-template-columns:repeat(2,minmax(0,1fr))}}
+    @media(max-width:720px){.project-card.featured{display:flex}.featured .card-top{width:100%}.featured .memory-layers{margin:0 0 22px}.featured .memory-layer{grid-template-columns:72px minmax(0,1fr);gap:8px}.workbench-intro>strong{font-size:20px}.project-status{font-size:12px}.architecture-body{padding-top:26px}.project-boundary{grid-template-columns:1fr;gap:6px}.project-boundary h4{margin:0}.revision-steps{grid-template-columns:1fr}.revision-steps li{padding:17px}.hero h1{font-size:clamp(80px,25vw,115px)}}
     @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important}}
   </style>
 </head>
@@ -24,7 +62,41 @@
     <section class="hero" id="top"><div class="hero-kicker"><span></span> DPT STUDENT · MOVEMENT · CHINESE MEDICINE</div><h1>Qisi</h1><p class="hero-line">从身体与运动出发，<br>探索<em>康复与中医</em>的连接。</p><a class="down-link" href="#about">认识我 <span aria-hidden="true">↓</span></a><div class="hero-mark" aria-hidden="true">实<br>践</div></section>
     <section class="section about" id="about"><div class="section-label">关于我 <span>01</span></div><div class="about-copy"><p>我是一名 DPT 学生，正在学习物理治疗，关注身体、运动与康复。</p><p>未来，我希望向中医相关方向发展，逐步探索它与康复实践之间的联系。</p><p>学习之外，我也在构建个人哲学工作台，用记忆架构整理思考、学习与证据，让理解能够积累，也能够修订。</p></div><div class="principles" aria-label="关注方向"><span>DPT 在读</span><span>中医方向探索</span><span>记忆架构</span></div></section>
     <section class="section work" id="work"><div class="section-label">我的作品 <span>02</span></div><div class="work-heading"><h2>正在做的事</h2><p>从真实问题出发，边做边验证。</p></div><div class="project-grid">
-      <article class="project-card featured" id="architecture"><div class="card-top"><span class="project-index">01</span><span class="spark" aria-hidden="true">01 / 研究</span></div><h3>个人哲学工作台</h3><p>把个人立场、学习状态、研究证据与任务知识分层保存，让每条记忆都能追溯来源、核对版本并持续修订。</p><div class="memory-layers" aria-label="记忆架构的三个层次"><div class="memory-layer"><strong>核心立场</strong><span>确认后生效，可继续修订</span></div><div class="memory-layer"><strong>学习与证据</strong><span>记录理解、遗忘与来源</span></div><div class="memory-layer"><strong>任务记忆</strong><span>彼此隔离，避免知识污染</span></div></div><div class="card-bottom"><span>记忆架构 · 持续构建中</span><a href="#architecture">查看架构 ↗</a></div></article>
+      <article class="project-card featured" id="architecture" aria-labelledby="workbench-title">
+        <div class="card-top"><span class="project-index">01 / 记忆架构设计</span><span class="project-status">研究原型 · 持续建设</span></div>
+        <h3 id="workbench-title">个人哲学工作台</h3>
+        <p class="workbench-intro"><strong>与 AI 共同学习，保留对自己思想的决定权。</strong>围绕这个目标，设计个人立场、AI 推演、学习记录和任务材料的分类与权限；让每次修订有来源、有授权，也有版本可回看。</p>
+        <div class="memory-layers" aria-label="记忆架构的四类材料及其边界">
+          <div class="memory-layer"><strong>个人立场</strong><span>本人明确认领后，才进入正式版本</span></div>
+          <div class="memory-layer"><strong>AI 推演</strong><span>作为挑战或研究候选，不自动变成我的观点</span></div>
+          <div class="memory-layer"><strong>学习记录</strong><span>记录理解、错误与复测，不自动改写立场</span></div>
+          <div class="memory-layer"><strong>任务材料</strong><span>限定在所属任务内，避免混入个人核心</span></div>
+        </div>
+        <details class="architecture-details">
+          <summary><span><span class="detail-closed">查看记忆架构与修订流程</span><span class="detail-open">收起架构说明</span></span><span class="detail-indicator" aria-hidden="true">＋</span></summary>
+          <div class="architecture-body">
+            <div class="design-principles">
+              <div><h4>来源可定位</h4><p>区分用户原话、AI 推演和外部证据，让每条材料的来处可以核对。</p></div>
+              <div><h4>授权有边界</h4><p>允许继续研究，不等于接受研究结论。立场修订需要另行确认。</p></div>
+              <div><h4>版本可追溯</h4><p>确认后的修改形成新版本，保留旧版本与修订依据，支持审计和恢复。</p></div>
+            </div>
+            <section class="revision-example" aria-labelledby="revision-title">
+              <div class="example-heading"><h4 id="revision-title">一个判断，怎样成为正式立场？</h4><span>虚构示例 · 设计流程</span></div>
+              <p class="example-premise">假设我提出：“准备充分之后，才应该开始实践。”下面用这个情境解释设计，并非已完成的自动化运行演示。</p>
+              <ol class="revision-steps">
+                <li><span class="step-number" aria-hidden="true">01</span><strong>暂时提出判断</strong><p>先记录这个想法，不默认它已经是我的正式立场。</p></li>
+                <li><span class="step-number" aria-hidden="true">02</span><strong>AI 提出挑战</strong><p>“小规模尝试能否帮助准备？”反例先进入待授权材料。</p></li>
+                <li><span class="step-number" aria-hidden="true">03</span><strong>本人授权研究</strong><p>由我决定是否继续探索；这一授权不代表认领结论。</p></li>
+                <li><span class="step-number" aria-hidden="true">04</span><strong>保存研究依据</strong><p>记录可定位来源、其他解释、适用边界与可推翻条件。</p></li>
+                <li><span class="step-number" aria-hidden="true">05</span><strong>形成修订候选</strong><p>提出有依据的修订建议，等待我决定是否采纳。</p></li>
+                <li><span class="step-number" aria-hidden="true">06</span><strong>确认后形成版本</strong><p>采纳后形成新版本，保留旧版本；未采纳则不改写正式立场。</p></li>
+              </ol>
+              <p class="learning-branch"><strong>答错题，走另一条路径。</strong>更新学习记录与复测安排，不因此自动修改个人立场。</p>
+            </section>
+            <div class="project-boundary"><h4>当前阶段</h4><p>持续建设中的研究原型。完整可复现演示、公开模板与部分自动化仍待完善；学习效果、跨领域适用性和长期成本尚待验证。</p></div>
+          </div>
+        </details>
+      </article>
       <article class="project-card timetable"><div class="card-top"><span class="project-index">02</span><span class="spark" aria-hidden="true">↗</span></div><h3>时差课表</h3><p>把各地时间放到同一张表：查询跨城时差，梳理作息与时间边界，再安排每周课程。</p><div class="card-bottom"><span>时间工具 · 试用版</span><a href="https://shicha-kebiao.guiguisqwd.chatgpt.site/" target="_blank" rel="noopener noreferrer" aria-label="打开时差课表（新窗口）">打开工具 ↗</a></div></article>
       <article class="project-card"><div class="card-top"><span class="project-index">03</span></div><h3>姓名一行诗</h3><p>输入一个姓名，按可核对的规则找到一条对应原诗；从旧程序考证走向可分享的手机网页。</p><div class="card-bottom"><span>文化产品 · 研究与验证中</span><a href="#contact">关注进展 ↗</a></div></article>
     </div></section>
