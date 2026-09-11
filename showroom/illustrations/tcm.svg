@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="740" viewBox="0 0 1200 740" role="img" aria-labelledby="title desc">
+    <title id="title">草木之间 — 原创示例图</title><desc id="desc">以抽象形态记录观察的次序。 枝叶 / 方向 / 留白。用于个人陈列室原型的抽象示例图，不对应真实研究、医学数据或成果。</desc>
+    <defs>
+      <linearGradient id="paper" x2="0" y2="1"><stop stop-color="#faf9f1"/><stop offset="1" stop-color="#f1f2e9"/></linearGradient>
+      <radialGradient id="glow"><stop stop-color="#e4e9d7" stop-opacity=".8"/><stop offset="1" stop-color="#e4e9d7" stop-opacity="0"/></radialGradient>
+      <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".06"/><stop offset=".5" stop-color="#dce8e9" stop-opacity=".10"/><stop offset="1" stop-color="#93acb8" stop-opacity=".23"/></linearGradient>
+      <linearGradient id="bone" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fbfaf0"/><stop offset=".45" stop-color="#e8eee0"/><stop offset="1" stop-color="#c7dacb"/></linearGradient>
+      <pattern id="dots" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#b5bd9e" opacity=".3"/></pattern>
+    </defs>
+    <g font-family="-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif">
+      <path fill="url(#paper)" d="M0 0H1200V740H0Z"/>
+      <path fill="url(#dots)" d="M399 99H1154V622H399Z"/>
+      <ellipse cx="789" cy="345" rx="330" ry="305" fill="url(#glow)"/>
+      <path d="M46 78H1154 M46 646H1154 M399 100V624" stroke="#d2d9cc" stroke-width="1"/>
+      <text x="48" y="49" fill="#59665e" font-size="14" letter-spacing="3">QISI / STUDY INDEX</text>
+      <text x="1152" y="49" text-anchor="end" fill="#778e65" font-size="12" letter-spacing="2">PLATE 02 · ORIGINAL STUDY</text>
+      <text x="47" y="140" fill="#778e65" font-size="12" letter-spacing="1.1">BOTANICAL OBSERVATIONS</text>
+      <text x="45" y="211" fill="#3b4b43" font-size="35" font-family="'Songti SC','STSong',Georgia,serif">草木之间</text>
+      <path d="M48 243H93" stroke="#778e65" stroke-width="2"/>
+      <text x="47" y="289" fill="#7c8a80" font-size="13">枝叶 / 方向 / 留白</text>
+      <text x="47" y="332" fill="#637368" font-size="13">以抽象形态记录观察的次序。</text>
+      <g transform="translate(48 433)"><circle cx="6" cy="0" r="5" fill="#778e65"/><circle cx="29" cy="0" r="5" fill="#b5bd9e"/><circle cx="52" cy="0" r="5" fill="#e4e9d7" stroke="#d2dbcc"/></g>
+      <text x="47" y="483" fill="#98a197" font-size="72" font-family="Georgia,serif" font-style="italic" opacity=".48">02</text>
+      <text x="48" y="551" fill="#7d8b80" font-size="11" letter-spacing="1.4">FORM / RELATION / CONTINUITY</text>
+      <text x="48" y="576" fill="#839184" font-size="12">A rhythm found in small differences.</text>
+      <circle cx="780" cy="337" r="199" fill="none" stroke="#abb994" stroke-width="1" opacity=".45"/><path d="M979.00 337.00 l8.00 0.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M952.34 436.50 l6.93 4.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M879.50 509.34 l4.00 6.93" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M780.00 536.00 l0.00 8.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M680.50 509.34 l-4.00 6.93" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M607.66 436.50 l-6.93 4.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M581.00 337.00 l-8.00 0.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M607.66 237.50 l-6.93 -4.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M680.50 164.66 l-4.00 -6.93" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M780.00 138.00 l-0.00 -8.00" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M879.50 164.66 l4.00 -6.93" fill="none" stroke="#abb994" stroke-width="0.9" /><path d="M952.34 237.50 l6.93 -4.00" fill="none" stroke="#abb994" stroke-width="0.9" /><ellipse cx="786" cy="564" rx="179" ry="18" fill="#dae0ca" opacity=".38"/><path d="M752 563 C803 472 767 397 792 300 S791 208 831 156" fill="none" stroke="#758b60" stroke-width="3" /><path d="M779 428 Q694 378 644 294 M786 341 Q896 310 927 245 M796 269 Q730 227 718 184" fill="none" stroke="#97a17e" stroke-width="1.4" /><g transform="translate(785 493) rotate(-52) scale(1.14)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(780 440) rotate(3) scale(1.08)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(786 384) rotate(-109) scale(1.18)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(784 337) rotate(8) scale(1.15)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(795 285) rotate(-114) scale(1.05)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(806 237) rotate(4) scale(0.92)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(818 190) rotate(-105) scale(0.64)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(726 373) rotate(-12) scale(0.78)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(687 335) rotate(8) scale(0.65)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(650 300) rotate(20) scale(0.55)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(850 318) rotate(-100) scale(0.84)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(893 288) rotate(-102) scale(0.7)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(922 253) rotate(-83) scale(0.52)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><g transform="translate(762 247) rotate(8) scale(0.64)">
+      <path d="M0 0 C-13-24-55-24-70-57 C-32-65 6-41 0 0Z" fill="#cad5b3" stroke="#91a67d" stroke-width="1.4"/>
+      <path d="M0 0 Q-29-27-66-54 M-17-17l-20-2 M-31-31l-3-16 M-40-37l-17-2" fill="none" stroke="#91a67d" stroke-width="1"/>
+    </g><path d="M800 468 H953 V446" fill="none" stroke="#a0ac8d" stroke-width="1" /><text x="965" y="450" font-size="11" fill="#6c7973" >BRANCH / 02</text><path d="M724 270 H568 V244" fill="none" stroke="#a0ac8d" stroke-width="1" /><text x="510" y="232" font-size="11" fill="#6c7973" >OBSERVE / 01</text><circle cx="722" cy="269" r="3" fill="#9a8966" stroke="none" stroke-width="1" /><circle cx="909" cy="482" r="26" fill="#ebe7d7" stroke="#bcac8b" stroke-width="1" /><path d="M896.0 482 Q909 469.0 922.0 482" fill="none" stroke="#b09e78" stroke-width="1" /><circle cx="960" cy="497" r="17" fill="#ebe7d7" stroke="#bcac8b" stroke-width="1" /><path d="M951.5 497 Q960 488.5 968.5 497" fill="none" stroke="#b09e78" stroke-width="1" /><circle cx="930" cy="530" r="9" fill="#ebe7d7" stroke="#bcac8b" stroke-width="1" /><path d="M925.5 530 Q930 525.5 934.5 530" fill="none" stroke="#b09e78" stroke-width="1" />
+      <text x="47" y="682" fill="#71806f" font-size="12">示例图 · 抽象形态与阅读结构</text>
+      <text x="1152" y="682" text-anchor="end" fill="#8b978a" font-size="11" letter-spacing="1.4">PERSONAL CABINET / DEMONSTRATION</text>
+      <path d="M46 704H56 M51 699V709 M1144 704H1154 M1149 699V709" stroke="#aebca9" stroke-width="1"/>
+    </g></svg>
