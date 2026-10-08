@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>找不到这个页面 · Qisi</title>
+<meta name="robots" content="noindex">
+<script>
+  // 旧的 shoulder-study 地址（含子页面）统一跳到改名后的 dpt-study
+  if (/^\/shoulder-study(\/|$)/.test(location.pathname)) {
+    location.replace('/dpt-study/' + location.pathname.replace(/^\/shoulder-study\/?/, '') + location.search + location.hash);
+  }
+</script>
+<style>body{margin:0;padding:80px 22px;background:#f5f6f0;color:#25382c;font:16px/1.8 Arial,"PingFang SC","Microsoft YaHei",sans-serif;text-align:center}a{color:#426b39}</style>
+</head>
+<body>
+<p>找不到这个页面。</p>
+<p><a href="/">回到主页</a> · <a href="/dpt-study/study.html">DPT 学习站</a></p>
+</body>
+</html>
